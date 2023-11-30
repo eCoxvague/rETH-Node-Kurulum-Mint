@@ -2,6 +2,10 @@
 
 rETH üstünde node kurarak mint yapmayı göstereceğim.
 
+Kodlar 7 puanlık zorluk derecesine göre düzenlenmiştir.
+
+
+
 - Orjinal rehbere burdan gidebilirsiniz. 
 
  - https://reth.gitbook.io/rerc20/what-is-rare-eth-reth/how-to-work
