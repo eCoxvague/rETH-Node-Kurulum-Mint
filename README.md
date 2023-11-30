@@ -80,7 +80,7 @@ while (1) {
     const potential_solution = ethers.utils.hexlify(random_value);
     const hashed_solution = ethers.utils.keccak256(ethers.utils.defaultAbiCoder.encode(["bytes32", "bytes32"], [potential_solution, currentChallenge]))
     console.log(hashed_solution)
-    if (hashed_solution.startsWith('0x77777')) {
+    if (hashed_solution.startsWith('0x777777')) {
         solution = potential_solution;
         break
     }
