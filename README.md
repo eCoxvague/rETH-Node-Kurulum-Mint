@@ -2,7 +2,7 @@
 
 rETH üstünde node kurarak mint yapmayı göstereceğim.
 
-Kodlar 7 puanlık zorluk derecesine göre düzenlenmiştir.
+Kodlar 9 puanlık zorluk derecesine göre düzenlenmiştir.
 
 
 
@@ -84,7 +84,7 @@ while (1) {
     const potential_solution = ethers.utils.hexlify(random_value);
     const hashed_solution = ethers.utils.keccak256(ethers.utils.defaultAbiCoder.encode(["bytes32", "bytes32"], [potential_solution, currentChallenge]))
     console.log(hashed_solution)
-    if (hashed_solution.startsWith('0x7777777')) {
+    if (hashed_solution.startsWith('0x007777777')) {
         solution = potential_solution;
         break
     }
