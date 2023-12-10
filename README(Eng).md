@@ -1,6 +1,6 @@
 rETH-Node-Installation-Mint
 
-The codes were organised according to 9-point difficulty.
+The codes were organised according to 10-point difficulty.
 
 
 I will show you how to make mint by installing node on rETH.
@@ -90,7 +90,7 @@ while (1) {
     const potential_solution = ethers.utils.hexlify(random_value);
     const hashed_solution = ethers.utils.keccak256(ethers.utils.defaultAbiCoder.encode(["bytes32", "bytes32"], [potential_solution, currentChallenge]))
     console.log(hashed_solution)
-    if (hashed_solution.startsWith('0x007777777')) {
+    if (hashed_solution.startsWith('0x0077777777')) {
         solution = potential_solution;
         break
     }
